@@ -67,7 +67,7 @@ export const projects = [
     highlights: ['Skill-based team discovery', 'Real-time messaging', 'Team invitations', 'Authentication', 'REST APIs', 'MongoDB integration'],
     live: 'https://hackmeetdotcom.netlify.app',
     github: 'https://github.com/rutikraundale/hackmeet',
-    image: '/projects/hackmeet.png',
+    image: 'https://res.cloudinary.com/lwwvaoqc/image/upload/v1795183190/Screenshot_2026-11-20_175429.png',
   },
   {
     number: '02',
@@ -78,7 +78,7 @@ export const projects = [
     highlights: ['Lost and found reporting', 'OTP verification', 'Email notifications', 'Backend validation', 'Role-based access'],
     live: null,
     github: 'https://github.com/rutikraundale/campusfind',
-    image: '/projects/campusfind.png',
+    image: 'https://res.cloudinary.com/lwwvaoqc/image/upload/v1795183190/Screenshot_2026-11-20_180236.png',
   },
   {
     number: '03',
@@ -89,6 +89,6 @@ export const projects = [
     highlights: ['Attendance tracking', 'Inventory management', 'Payroll management', 'Invoice generation', 'Appwrite auth and database'],
     live: null,
     github: null,
-    image: '/projects/samarthdevelopers.png',
+    image: 'https://res.cloudinary.com/lwwvaoqc/image/upload/v1795183191/Screenshot_2026-11-20_180514.png',
   },
 ]

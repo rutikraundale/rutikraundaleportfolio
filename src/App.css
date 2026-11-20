@@ -85,6 +85,7 @@
 .project-preview { min-height:440px; padding:24px; background:var(--deep); display:grid; place-items:center; overflow:hidden; }
 .project-preview img { display:block; width:100%; aspect-ratio:1.875 / 1; object-fit:cover; border:1px solid var(--border); border-radius:4px; transition:transform 300ms ease; }
 .project-card:hover .project-preview img { transform:translateY(-4px); }
+.project-preview-fallback { margin:0; color:var(--muted); font-size:15px; text-align:center; }
 
 .experience-card { display:grid; grid-template-columns:.35fr .65fr; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:40px 0; }
 .experience-meta { color:var(--muted); font-size:14px; }

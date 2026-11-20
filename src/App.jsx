@@ -76,9 +76,23 @@ function SectionHeading({ label, title, intro }) {
 }
 
 function ProjectPreview({ image, title }) {
+  const [imageFailed, setImageFailed] = useState(false)
+
   return (
     <div className="project-preview">
-      <img src={image} alt={`${title} project screenshot`} loading="lazy" decoding="async" />
+      {imageFailed ? (
+        <p className="project-preview-fallback" role="img" aria-label={`${title} screenshot unavailable`}>
+          {title} preview unavailable
+        </p>
+      ) : (
+        <img
+          src={image}
+          alt={`${title} project screenshot`}
+          loading="lazy"
+          decoding="async"
+          onError={() => setImageFailed(true)}
+        />
+      )}
     </div>
   )
 }
