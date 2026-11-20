@@ -133,7 +133,7 @@ function App() {
             {navItems.map(item => (
               <a key={item} className={activeSection === item.toLowerCase() ? 'active' : ''} href={`#${item.toLowerCase()}`} onClick={() => setMenuOpen(false)}>{item}</a>
             ))}
-            <a className="nav-resume" href={personal.resume} download><Icons.Download size={15} />Resume</a>
+            <a className="nav-resume" href={personal.resume} target="_blank" rel="noopener noreferrer"><Icons.Download size={15} />Resume</a>
           </div>
         </div>
       </nav>
@@ -148,8 +148,9 @@ function App() {
             <p className="hero-description">Final-year Computer Engineering student focused on full-stack development, backend engineering and solving real-world problems through software.</p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projects">Explore Projects <Icons.ArrowDown size={17} /></a>
-              <a className="button button-secondary" href={personal.resume} download><Icons.Download size={17} /> Download Resume</a>
+              <a className="button button-secondary" href={personal.resume} target="_blank" rel="noopener noreferrer"><Icons.Download size={17} /> Download Resume</a>
             </div>
+            <p className="resume-fallback">If the download doesn't start, <a href={personal.resumePreview} target="_blank" rel="noopener noreferrer">view the resume</a>.</p>
             <SocialLinks className="social-row" />
           </div>
         </section>

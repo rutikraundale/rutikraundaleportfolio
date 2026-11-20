@@ -7,7 +7,8 @@ export const personal = {
   github: 'https://github.com/rutikraundale',
   linkedin: 'https://linkedin.com/in/rutik-raundale',
   leetcode: 'https://leetcode.com/u/rutikraundale',
-  resume: '/Rutik_Raundale_Resume.pdf',
+  resume: 'https://drive.google.com/uc?export=download&id=1ABO8mD05CD9hWMnRvlHe2guVpvEB4QUv',
+  resumePreview: 'https://drive.google.com/file/d/1ABO8mD05CD9hWMnRvlHe2guVpvEB4QUv/view',
 }
 
 export const skills = [

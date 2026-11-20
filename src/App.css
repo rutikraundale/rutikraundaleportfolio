@@ -33,6 +33,9 @@
 .button-primary:hover { background:#cacaca; }
 .button-secondary { border:1px solid var(--border); background:var(--deep); }
 .button-secondary:hover { border-color:rgba(255,255,255,.35); background:var(--surface); }
+.resume-fallback { margin:12px 0 0; color:var(--muted); font-size:14px; line-height:1.5; }
+.resume-fallback a { color:var(--secondary); text-underline-offset:3px; }
+.resume-fallback a:hover { color:var(--text); }
 .social-row { display:flex; gap:12px; margin-top:28px; }
 .social-row a { width:42px; height:42px; display:grid; place-items:center; border:1px solid var(--border); border-radius:50%; color:var(--secondary); transition:opacity 200ms,transform 200ms,border-color 200ms; }
 .social-row a:hover { opacity:.85; transform:scale(1.06); border-color:rgba(255,255,255,.35); }
