@@ -1,0 +1,38 @@
+:root {
+  font-family: "Geo", sans-serif;
+  color: #ffffff;
+  background: #0f1011;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --bg: #0f1011;
+  --deep: #090a0b;
+  --surface: #18191a;
+  --elevated: #2e2e2e;
+  --hover: #3f4041;
+  --text: #ffffff;
+  --heading: #f5f5f7;
+  --secondary: #c0c0c0;
+  --muted: #9f9fa0;
+  --border: rgba(255, 255, 255, 0.12);
+}
+
+.geo-regular {
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.geo-regular-italic {
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: var(--bg); }
+button, a { font: inherit; }
+strong { font-weight: 400; }
+a { color: inherit; }
+::selection { background: #cacaca; color: #090a0b; }
